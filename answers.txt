@@ -1,0 +1,28 @@
+Part One
+- What is HTTP? Hypertext transfer protocol, and it is one of the protocols to transfer data between networked devices.
+- What is a URL? It is a uniform resource locator, and it is an address to a resource on the internet. It will tell the browser what server to request information from.
+- What is DNS? Domain Name System - This translates the domain name into an IP address so that humans don't have to remember weird IP numbers.
+- What is a query string? A query string is a part added onto the url to request for specific information from a server. Usually this is typed into a search bar to find a specific page or resource.
+- What are two HTTP verbs and how are they different? Get and Post are different verbs for requests to a server. Get will ask for information from the server so that it can display a webpage or find an image. Get does not change any of the data on the server. Post will be requesting to make a change to the data on the server by adding a post to a website like facebook or adding a user through a form.
+- What is an HTTP request? It is what the browser sends to a specific IP address to ask the server for something like a webpage.
+- What is an HTTP response? It is the server sending back information. The response comes with a code that tells whether the response was successful or not. The response has a body of information that is usually html that the browser can then translate into the webpage.
+- What is an HTTP header? Give a couple examples of request and response headers you have seen.
+An HTTP header is a field in an HTTP request or response that contains metadata about the request or response. HTTP request header examples would be "Accept-", which tells what formats are allowed from the response. "Authorization" would supply credentials to authenticate a user. HTTP response header examples would be metadata about the response like the location of the server, the version, or date it thinks it is. "Content-Type" is one header that tells what is in the content of the response (usually text/html)
+- What are the processes that happen when you type “http://somesite.com/some/page.html” into a browser? The browser changes the url into an IP address and initiates a connection with the server, then it sends an HTTP request to that address. If it finds the server there, it will get a response with a body of data as well as headers with metadata back. The browser will translate the body of the data from html into an actual webpage. It might see other links in the html that it needs to send requests to for images or stylesheets as well. 
+
+Part Two
+1. Pirate jokes at icanhazdadjoke.com:
+What did the pirate say on his 80th birthday? Aye Matey!
+What does a pirate pay for his corn? A buccaneer!
+Why couldn't the kid see the pirate movie? Because it was rated arrr!
+Why are pirates called pirates? Because they arrr!
+Why do pirates not know the alphabet? They always get stuck at "C".
+2. IP address using dig: 172.67.198.173 and 104.21.66.15
+3. completed
+
+Part Three
+HTML page is index.html
+Completed
+
+Part Four
+Completed
